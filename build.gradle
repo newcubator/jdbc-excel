@@ -36,8 +36,8 @@ dependencies {
     testImplementation 'org.spockframework:spock-spring:1.3-groovy-2.5'
 
     // Use spring to for integration testing
-    testImplementation 'org.springframework.boot:spring-boot-starter-jdbc:2.2.5.RELEASE'
-    testImplementation 'org.springframework.boot:spring-boot-starter-test:2.2.5.RELEASE'
+    testImplementation 'org.springframework.boot:spring-boot-starter-jdbc:2.3.3.RELEASE'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test:2.3.3.RELEASE'
 }
 
 task javadocJar(type: Jar) {
