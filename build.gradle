@@ -23,7 +23,7 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok:1.18.10'
 
     implementation 'org.slf4j:slf4j-api:1.7.30'
-    implementation 'org.springframework:spring-jdbc:5.3.0'
+    implementation 'org.springframework:spring-jdbc:5.3.26'
 
     testRuntime 'com.h2database:h2:1.4.200'
 
