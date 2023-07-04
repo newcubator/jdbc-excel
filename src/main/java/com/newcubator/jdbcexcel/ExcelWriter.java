@@ -62,6 +62,10 @@ public class ExcelWriter {
         return createExcel(List.of(exportTab), exportConfiguration);
     }
 
+    public byte[] createExcel(List<ExcelTab> exportTabs) throws IOException {
+        return this.createExcel(exportTabs, new ExportConfiguration());
+    }
+
     public byte[] createExcel(List<ExcelTab> exportTabs, ExportConfiguration exportConfiguration) throws IOException {
         try (SXSSFWorkbook workbook = new SXSSFWorkbook(ROWS_IN_MEMORY)) {
             exportTabs.forEach((tab) -> {
