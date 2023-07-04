@@ -24,4 +24,4 @@ jobs:
         SONATYPE_PASSWORD: ${{ secrets.SONATYPE_PASSWORD }}
         SIGNING_KEY: ${{ secrets.SIGNING_KEY }}
         SIGNING_PASSWORD: ${{ secrets.SIGNING_PASSWORD }}
-      run: ./gradlew publishJdbcExcelPublicationToMavenRepository closeAndReleaseStagingRepository
+      run: ./gradlew publishJdbcExcelPublicationToSonatypeRepository closeAndReleaseStagingRepository
