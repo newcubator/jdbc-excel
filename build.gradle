@@ -3,7 +3,7 @@ plugins {
     id 'java-library'
     id 'maven-publish'
     id 'signing'
-    id 'com.palantir.git-version' version '0.12.2'
+    id 'com.palantir.git-version' version '0.15.0'
     id "io.github.gradle-nexus.publish-plugin" version "1.3.0"
 }
 
