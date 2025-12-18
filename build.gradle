@@ -42,7 +42,7 @@ dependencies {
     testImplementation 'org.postgresql:postgresql:42.2.5'
 
     testCompile "org.testcontainers:spock:1.15.2"
-    testCompile "org.testcontainers:postgresql:1.15.2"
+    testCompile "org.testcontainers:postgresql:1.21.4"
 }
 
 task javadocJar(type: Jar) {
