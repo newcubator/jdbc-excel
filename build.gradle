@@ -19,8 +19,8 @@ version = gitVersion()
 sourceCompatibility = JavaVersion.VERSION_11
 
 dependencies {
-    compileOnly 'org.projectlombok:lombok:1.18.10'
-    annotationProcessor 'org.projectlombok:lombok:1.18.10'
+    compileOnly 'org.projectlombok:lombok:1.18.48'
+    annotationProcessor 'org.projectlombok:lombok:1.18.48'
 
     implementation 'org.slf4j:slf4j-api:1.7.30'
     implementation 'org.springframework:spring-jdbc:5.3.0'
